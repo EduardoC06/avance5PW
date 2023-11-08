@@ -30,8 +30,8 @@
             <div class="info-contacto">
                 <h2>¿Tienes algun <br>problema?</h2>
                 <p>Por favor, cuéntame cuál es tu 
-                    problema o pregunta en el formulario, y estaré encantado de responder. 
-                    ¡No dudes en compartir los detalles que necesito saber para brindarte la mejor ayuda posible!</p>
+                    problema, estaremos encantados de ayudarte. 
+                    ¡No dudes en escribirnos todos los detalles para poder brindarte la mejor ayuda posible!</p>
             </div>
             <div class="imagen-contacto">
                 <img src="imagenes/contacto2.jpeg" alt="" width="100%" height="100%">
@@ -41,15 +41,15 @@
             <form class="formulario2" action="tratamiento_form.php" method="post">
                 <label>Nombres</label>
                 <div class="nombres-formulario">
-                    <input type="text" name="nom" placeholder="Primer nombre">
-                    <input type="text" name="nom2" placeholder="Segundo nombre">
+                    <input type="text" name="nom" placeholder="Primer nombre" required>
+                    <input type="text" name="nom2" placeholder="Segundo nombre" required>
                 </div>
 
                 <label>Apellidos</label>
 
                 <div class="apellidos-formulario">
-                    <input type="text" name="apel" placeholder="Primer apellido">
-                    <input type="text" name="apel2" placeholder="Segundo apellido">
+                    <input type="text" name="apel" placeholder="Primer apellido" required>
+                    <input type="text" name="apel2" placeholder="Segundo apellido" required>
                 </div>
 
                 <div class="d-c-formulario">
@@ -59,17 +59,17 @@
 
                 <div class="d-c-formulario2">
                     <div class="dni-formulario">
-                        <input type="text" name="dni" placeholder="#######">
+                        <input type="text" name="dni" placeholder="#######" required>
                     </div>
                     <div class="correo-formulario">
-                        <input type="gmail" name="corr" placeholder="abcd1234@gmail.com">
+                        <input type="email" name="corr" placeholder="abcd1234@gmail.com" required>
                     </div>
                 </div>
 
                 <label>Num celular</label>
 
                 <div class="num-formulario">
-                    <input type="text" name="numC" placeholder="#########">
+                    <input type="text" name="numC" placeholder="#########" required>
                 </div>
 
                 <label>Estado civil</label>
